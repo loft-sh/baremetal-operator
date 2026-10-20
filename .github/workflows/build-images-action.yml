@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: metal3-io/project-infra/.github/workflows/container-image-build.yml@main # zizmor: ignore[unpinned-uses]
+    uses: metal3-io/project-infra/.github/workflows/container-image-build.yml@09ac46cbddaa58ae837173df520c95f85b67278c # main; zizmor: ignore[unpinned-uses]
     with:
       image-name: 'baremetal-operator'
       pushImage: true

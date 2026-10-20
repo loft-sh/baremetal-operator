@@ -17,7 +17,7 @@ permissions: {}
 
 jobs:
   fuzz-tests:
-    uses: metal3-io/project-infra/.github/workflows/scheduled-fuzz.yml@main # zizmor: ignore[unpinned-uses]
+    uses: metal3-io/project-infra/.github/workflows/scheduled-fuzz.yml@09ac46cbddaa58ae837173df520c95f85b67278c # main; zizmor: ignore[unpinned-uses]
     permissions:
       contents: read
       issues: write
